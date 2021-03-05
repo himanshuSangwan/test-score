@@ -24,6 +24,7 @@ const score = new Schema(
       type: ObjectId,
       ref: "user",
       required: true,
+      unique: true,
     },
   },
   { timestamps: true }
